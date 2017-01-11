@@ -1,0 +1,4348 @@
+fileFormatVersion: 2
+guid: 8a46adb56e88588468580ffa533975bc
+timeCreated: 1483967678
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PC Computer - The Binding of Isaac Rebirth - Isaac_0
+    21300002: PC Computer - The Binding of Isaac Rebirth - Isaac_1
+    21300004: PC Computer - The Binding of Isaac Rebirth - Isaac_2
+    21300006: PC Computer - The Binding of Isaac Rebirth - Isaac_3
+    21300008: PC Computer - The Binding of Isaac Rebirth - Isaac_4
+    21300010: PC Computer - The Binding of Isaac Rebirth - Isaac_5
+    21300012: PC Computer - The Binding of Isaac Rebirth - Isaac_6
+    21300014: PC Computer - The Binding of Isaac Rebirth - Isaac_7
+    21300016: PC Computer - The Binding of Isaac Rebirth - Isaac_8
+    21300018: PC Computer - The Binding of Isaac Rebirth - Isaac_9
+    21300020: PC Computer - The Binding of Isaac Rebirth - Isaac_10
+    21300022: PC Computer - The Binding of Isaac Rebirth - Isaac_11
+    21300024: PC Computer - The Binding of Isaac Rebirth - Isaac_12
+    21300026: PC Computer - The Binding of Isaac Rebirth - Isaac_13
+    21300028: PC Computer - The Binding of Isaac Rebirth - Isaac_14
+    21300030: PC Computer - The Binding of Isaac Rebirth - Isaac_15
+    21300032: PC Computer - The Binding of Isaac Rebirth - Isaac_16
+    21300034: PC Computer - The Binding of Isaac Rebirth - Isaac_17
+    21300036: PC Computer - The Binding of Isaac Rebirth - Isaac_18
+    21300038: PC Computer - The Binding of Isaac Rebirth - Isaac_19
+    21300040: PC Computer - The Binding of Isaac Rebirth - Isaac_20
+    21300042: PC Computer - The Binding of Isaac Rebirth - Isaac_21
+    21300044: PC Computer - The Binding of Isaac Rebirth - Isaac_22
+    21300046: PC Computer - The Binding of Isaac Rebirth - Isaac_23
+    21300048: PC Computer - The Binding of Isaac Rebirth - Isaac_24
+    21300050: PC Computer - The Binding of Isaac Rebirth - Isaac_25
+    21300052: PC Computer - The Binding of Isaac Rebirth - Isaac_26
+    21300054: PC Computer - The Binding of Isaac Rebirth - Isaac_27
+    21300056: PC Computer - The Binding of Isaac Rebirth - Isaac_28
+    21300058: PC Computer - The Binding of Isaac Rebirth - Isaac_29
+    21300060: PC Computer - The Binding of Isaac Rebirth - Isaac_30
+    21300062: PC Computer - The Binding of Isaac Rebirth - Isaac_31
+    21300064: PC Computer - The Binding of Isaac Rebirth - Isaac_32
+    21300066: PC Computer - The Binding of Isaac Rebirth - Isaac_33
+    21300068: PC Computer - The Binding of Isaac Rebirth - Isaac_34
+    21300070: PC Computer - The Binding of Isaac Rebirth - Isaac_35
+    21300072: PC Computer - The Binding of Isaac Rebirth - Isaac_36
+    21300074: PC Computer - The Binding of Isaac Rebirth - Isaac_37
+    21300076: PC Computer - The Binding of Isaac Rebirth - Isaac_38
+    21300078: PC Computer - The Binding of Isaac Rebirth - Isaac_39
+    21300080: PC Computer - The Binding of Isaac Rebirth - Isaac_40
+    21300082: PC Computer - The Binding of Isaac Rebirth - Isaac_41
+    21300084: PC Computer - The Binding of Isaac Rebirth - Isaac_42
+    21300086: PC Computer - The Binding of Isaac Rebirth - Isaac_43
+    21300088: PC Computer - The Binding of Isaac Rebirth - Isaac_44
+    21300090: PC Computer - The Binding of Isaac Rebirth - Isaac_45
+    21300092: PC Computer - The Binding of Isaac Rebirth - Isaac_46
+    21300094: PC Computer - The Binding of Isaac Rebirth - Isaac_47
+    21300096: PC Computer - The Binding of Isaac Rebirth - Isaac_48
+    21300098: PC Computer - The Binding of Isaac Rebirth - Isaac_49
+    21300100: PC Computer - The Binding of Isaac Rebirth - Isaac_50
+    21300102: PC Computer - The Binding of Isaac Rebirth - Isaac_51
+    21300104: PC Computer - The Binding of Isaac Rebirth - Isaac_52
+    21300106: PC Computer - The Binding of Isaac Rebirth - Isaac_53
+    21300108: PC Computer - The Binding of Isaac Rebirth - Isaac_54
+    21300110: PC Computer - The Binding of Isaac Rebirth - Isaac_55
+    21300112: PC Computer - The Binding of Isaac Rebirth - Isaac_56
+    21300114: PC Computer - The Binding of Isaac Rebirth - Isaac_57
+    21300116: PC Computer - The Binding of Isaac Rebirth - Isaac_58
+    21300118: PC Computer - The Binding of Isaac Rebirth - Isaac_59
+    21300120: PC Computer - The Binding of Isaac Rebirth - Isaac_60
+    21300122: PC Computer - The Binding of Isaac Rebirth - Isaac_61
+    21300124: PC Computer - The Binding of Isaac Rebirth - Isaac_62
+    21300126: PC Computer - The Binding of Isaac Rebirth - Isaac_63
+    21300128: PC Computer - The Binding of Isaac Rebirth - Isaac_64
+    21300130: PC Computer - The Binding of Isaac Rebirth - Isaac_65
+    21300132: PC Computer - The Binding of Isaac Rebirth - Isaac_66
+    21300134: PC Computer - The Binding of Isaac Rebirth - Isaac_67
+    21300136: PC Computer - The Binding of Isaac Rebirth - Isaac_68
+    21300138: PC Computer - The Binding of Isaac Rebirth - Isaac_69
+    21300140: PC Computer - The Binding of Isaac Rebirth - Isaac_70
+    21300142: PC Computer - The Binding of Isaac Rebirth - Isaac_71
+    21300144: PC Computer - The Binding of Isaac Rebirth - Isaac_72
+    21300146: PC Computer - The Binding of Isaac Rebirth - Isaac_73
+    21300148: PC Computer - The Binding of Isaac Rebirth - Isaac_74
+    21300150: PC Computer - The Binding of Isaac Rebirth - Isaac_75
+    21300152: PC Computer - The Binding of Isaac Rebirth - Isaac_76
+    21300154: PC Computer - The Binding of Isaac Rebirth - Isaac_77
+    21300156: PC Computer - The Binding of Isaac Rebirth - Isaac_78
+    21300158: PC Computer - The Binding of Isaac Rebirth - Isaac_79
+    21300160: PC Computer - The Binding of Isaac Rebirth - Isaac_80
+    21300162: PC Computer - The Binding of Isaac Rebirth - Isaac_81
+    21300164: PC Computer - The Binding of Isaac Rebirth - Isaac_82
+    21300166: PC Computer - The Binding of Isaac Rebirth - Isaac_83
+    21300168: PC Computer - The Binding of Isaac Rebirth - Isaac_84
+    21300170: PC Computer - The Binding of Isaac Rebirth - Isaac_85
+    21300172: PC Computer - The Binding of Isaac Rebirth - Isaac_86
+    21300174: PC Computer - The Binding of Isaac Rebirth - Isaac_87
+    21300176: PC Computer - The Binding of Isaac Rebirth - Isaac_88
+    21300178: PC Computer - The Binding of Isaac Rebirth - Isaac_89
+    21300180: PC Computer - The Binding of Isaac Rebirth - Isaac_90
+    21300182: PC Computer - The Binding of Isaac Rebirth - Isaac_91
+    21300184: PC Computer - The Binding of Isaac Rebirth - Isaac_92
+    21300186: PC Computer - The Binding of Isaac Rebirth - Isaac_93
+    21300188: PC Computer - The Binding of Isaac Rebirth - Isaac_94
+    21300190: PC Computer - The Binding of Isaac Rebirth - Isaac_95
+    21300192: PC Computer - The Binding of Isaac Rebirth - Isaac_96
+    21300194: PC Computer - The Binding of Isaac Rebirth - Isaac_97
+    21300196: PC Computer - The Binding of Isaac Rebirth - Isaac_98
+    21300198: PC Computer - The Binding of Isaac Rebirth - Isaac_99
+    21300200: PC Computer - The Binding of Isaac Rebirth - Isaac_100
+    21300202: PC Computer - The Binding of Isaac Rebirth - Isaac_101
+    21300204: PC Computer - The Binding of Isaac Rebirth - Isaac_102
+    21300206: PC Computer - The Binding of Isaac Rebirth - Isaac_103
+    21300208: PC Computer - The Binding of Isaac Rebirth - Isaac_104
+    21300210: PC Computer - The Binding of Isaac Rebirth - Isaac_105
+    21300212: PC Computer - The Binding of Isaac Rebirth - Isaac_106
+    21300214: PC Computer - The Binding of Isaac Rebirth - Isaac_107
+    21300216: PC Computer - The Binding of Isaac Rebirth - Isaac_108
+    21300218: PC Computer - The Binding of Isaac Rebirth - Isaac_109
+    21300220: PC Computer - The Binding of Isaac Rebirth - Isaac_110
+    21300222: PC Computer - The Binding of Isaac Rebirth - Isaac_111
+    21300224: PC Computer - The Binding of Isaac Rebirth - Isaac_112
+    21300226: PC Computer - The Binding of Isaac Rebirth - Isaac_113
+    21300228: PC Computer - The Binding of Isaac Rebirth - Isaac_114
+    21300230: PC Computer - The Binding of Isaac Rebirth - Isaac_115
+    21300232: PC Computer - The Binding of Isaac Rebirth - Isaac_116
+    21300234: PC Computer - The Binding of Isaac Rebirth - Isaac_117
+    21300236: PC Computer - The Binding of Isaac Rebirth - Isaac_118
+    21300238: PC Computer - The Binding of Isaac Rebirth - Isaac_119
+    21300240: PC Computer - The Binding of Isaac Rebirth - Isaac_120
+    21300242: PC Computer - The Binding of Isaac Rebirth - Isaac_121
+    21300244: PC Computer - The Binding of Isaac Rebirth - Isaac_122
+    21300246: PC Computer - The Binding of Isaac Rebirth - Isaac_123
+    21300248: PC Computer - The Binding of Isaac Rebirth - Isaac_124
+    21300250: PC Computer - The Binding of Isaac Rebirth - Isaac_125
+    21300252: PC Computer - The Binding of Isaac Rebirth - Isaac_126
+    21300254: PC Computer - The Binding of Isaac Rebirth - Isaac_127
+    21300256: PC Computer - The Binding of Isaac Rebirth - Isaac_128
+    21300258: PC Computer - The Binding of Isaac Rebirth - Isaac_129
+    21300260: PC Computer - The Binding of Isaac Rebirth - Isaac_130
+    21300262: PC Computer - The Binding of Isaac Rebirth - Isaac_131
+    21300264: PC Computer - The Binding of Isaac Rebirth - Isaac_132
+    21300266: PC Computer - The Binding of Isaac Rebirth - Isaac_133
+    21300268: PC Computer - The Binding of Isaac Rebirth - Isaac_134
+    21300270: PC Computer - The Binding of Isaac Rebirth - Isaac_135
+    21300272: PC Computer - The Binding of Isaac Rebirth - Isaac_136
+    21300274: PC Computer - The Binding of Isaac Rebirth - Isaac_137
+    21300276: PC Computer - The Binding of Isaac Rebirth - Isaac_138
+    21300278: PC Computer - The Binding of Isaac Rebirth - Isaac_139
+    21300280: PC Computer - The Binding of Isaac Rebirth - Isaac_140
+    21300282: PC Computer - The Binding of Isaac Rebirth - Isaac_141
+    21300284: PC Computer - The Binding of Isaac Rebirth - Isaac_142
+    21300286: PC Computer - The Binding of Isaac Rebirth - Isaac_143
+    21300288: PC Computer - The Binding of Isaac Rebirth - Isaac_144
+    21300290: PC Computer - The Binding of Isaac Rebirth - Isaac_145
+    21300292: PC Computer - The Binding of Isaac Rebirth - Isaac_146
+    21300294: PC Computer - The Binding of Isaac Rebirth - Isaac_147
+    21300296: PC Computer - The Binding of Isaac Rebirth - Isaac_148
+    21300298: PC Computer - The Binding of Isaac Rebirth - Isaac_149
+    21300300: PC Computer - The Binding of Isaac Rebirth - Isaac_150
+    21300302: PC Computer - The Binding of Isaac Rebirth - Isaac_151
+    21300304: PC Computer - The Binding of Isaac Rebirth - Isaac_152
+    21300306: PC Computer - The Binding of Isaac Rebirth - Isaac_153
+    21300308: PC Computer - The Binding of Isaac Rebirth - Isaac_154
+    21300310: PC Computer - The Binding of Isaac Rebirth - Isaac_155
+    21300312: PC Computer - The Binding of Isaac Rebirth - Isaac_156
+    21300314: PC Computer - The Binding of Isaac Rebirth - Isaac_157
+    21300316: PC Computer - The Binding of Isaac Rebirth - Isaac_158
+    21300318: PC Computer - The Binding of Isaac Rebirth - Isaac_159
+    21300320: PC Computer - The Binding of Isaac Rebirth - Isaac_160
+    21300322: PC Computer - The Binding of Isaac Rebirth - Isaac_161
+    21300324: PC Computer - The Binding of Isaac Rebirth - Isaac_162
+    21300326: PC Computer - The Binding of Isaac Rebirth - Isaac_163
+    21300328: PC Computer - The Binding of Isaac Rebirth - Isaac_164
+    21300330: PC Computer - The Binding of Isaac Rebirth - Isaac_165
+    21300332: PC Computer - The Binding of Isaac Rebirth - Isaac_166
+    21300334: PC Computer - The Binding of Isaac Rebirth - Isaac_167
+    21300336: PC Computer - The Binding of Isaac Rebirth - Isaac_168
+    21300338: PC Computer - The Binding of Isaac Rebirth - Isaac_169
+    21300340: PC Computer - The Binding of Isaac Rebirth - Isaac_170
+    21300342: PC Computer - The Binding of Isaac Rebirth - Isaac_171
+    21300344: PC Computer - The Binding of Isaac Rebirth - Isaac_172
+    21300346: PC Computer - The Binding of Isaac Rebirth - Isaac_173
+    21300348: PC Computer - The Binding of Isaac Rebirth - Isaac_174
+    21300350: PC Computer - The Binding of Isaac Rebirth - Isaac_175
+    21300352: PC Computer - The Binding of Isaac Rebirth - Isaac_176
+    21300354: PC Computer - The Binding of Isaac Rebirth - Isaac_177
+    21300356: PC Computer - The Binding of Isaac Rebirth - Isaac_178
+    21300358: PC Computer - The Binding of Isaac Rebirth - Isaac_179
+    21300360: PC Computer - The Binding of Isaac Rebirth - Isaac_180
+    21300362: PC Computer - The Binding of Isaac Rebirth - Isaac_181
+    21300364: PC Computer - The Binding of Isaac Rebirth - Isaac_182
+    21300366: PC Computer - The Binding of Isaac Rebirth - Isaac_183
+    21300368: PC Computer - The Binding of Isaac Rebirth - Isaac_184
+    21300370: PC Computer - The Binding of Isaac Rebirth - Isaac_185
+    21300372: PC Computer - The Binding of Isaac Rebirth - Isaac_186
+    21300374: PC Computer - The Binding of Isaac Rebirth - Isaac_187
+    21300376: PC Computer - The Binding of Isaac Rebirth - Isaac_188
+    21300378: PC Computer - The Binding of Isaac Rebirth - Isaac_189
+    21300380: PC Computer - The Binding of Isaac Rebirth - Isaac_190
+    21300382: PC Computer - The Binding of Isaac Rebirth - Isaac_191
+    21300384: PC Computer - The Binding of Isaac Rebirth - Isaac_192
+    21300386: PC Computer - The Binding of Isaac Rebirth - Isaac_193
+    21300388: PC Computer - The Binding of Isaac Rebirth - Isaac_194
+    21300390: PC Computer - The Binding of Isaac Rebirth - Isaac_195
+    21300392: PC Computer - The Binding of Isaac Rebirth - Isaac_196
+    21300394: PC Computer - The Binding of Isaac Rebirth - Isaac_197
+    21300396: PC Computer - The Binding of Isaac Rebirth - Isaac_198
+    21300398: PC Computer - The Binding of Isaac Rebirth - Isaac_199
+    21300400: PC Computer - The Binding of Isaac Rebirth - Isaac_200
+    21300402: PC Computer - The Binding of Isaac Rebirth - Isaac_201
+    21300404: PC Computer - The Binding of Isaac Rebirth - Isaac_202
+    21300406: PC Computer - The Binding of Isaac Rebirth - Isaac_203
+    21300408: PC Computer - The Binding of Isaac Rebirth - Isaac_204
+    21300410: PC Computer - The Binding of Isaac Rebirth - Isaac_205
+    21300412: PC Computer - The Binding of Isaac Rebirth - Isaac_206
+    21300414: PC Computer - The Binding of Isaac Rebirth - Isaac_207
+    21300416: PC Computer - The Binding of Isaac Rebirth - Isaac_208
+    21300418: PC Computer - The Binding of Isaac Rebirth - Isaac_209
+    21300420: PC Computer - The Binding of Isaac Rebirth - Isaac_210
+    21300422: PC Computer - The Binding of Isaac Rebirth - Isaac_211
+    21300424: PC Computer - The Binding of Isaac Rebirth - Isaac_212
+    21300426: PC Computer - The Binding of Isaac Rebirth - Isaac_213
+    21300428: PC Computer - The Binding of Isaac Rebirth - Isaac_214
+    21300430: PC Computer - The Binding of Isaac Rebirth - Isaac_215
+    21300432: PC Computer - The Binding of Isaac Rebirth - Isaac_216
+    21300434: PC Computer - The Binding of Isaac Rebirth - Isaac_217
+    21300436: PC Computer - The Binding of Isaac Rebirth - Isaac_218
+    21300438: PC Computer - The Binding of Isaac Rebirth - Isaac_219
+    21300440: PC Computer - The Binding of Isaac Rebirth - Isaac_220
+    21300442: PC Computer - The Binding of Isaac Rebirth - Isaac_221
+    21300444: PC Computer - The Binding of Isaac Rebirth - Isaac_222
+    21300446: PC Computer - The Binding of Isaac Rebirth - Isaac_223
+    21300448: PC Computer - The Binding of Isaac Rebirth - Isaac_224
+    21300450: PC Computer - The Binding of Isaac Rebirth - Isaac_225
+    21300452: PC Computer - The Binding of Isaac Rebirth - Isaac_226
+    21300454: PC Computer - The Binding of Isaac Rebirth - Isaac_227
+    21300456: PC Computer - The Binding of Isaac Rebirth - Isaac_228
+    21300458: PC Computer - The Binding of Isaac Rebirth - Isaac_229
+    21300460: PC Computer - The Binding of Isaac Rebirth - Isaac_230
+    21300462: PC Computer - The Binding of Isaac Rebirth - Isaac_231
+    21300464: PC Computer - The Binding of Isaac Rebirth - Isaac_232
+    21300466: PC Computer - The Binding of Isaac Rebirth - Isaac_233
+    21300468: PC Computer - The Binding of Isaac Rebirth - Isaac_234
+    21300470: PC Computer - The Binding of Isaac Rebirth - Isaac_235
+    21300472: PC Computer - The Binding of Isaac Rebirth - Isaac_236
+    21300474: PC Computer - The Binding of Isaac Rebirth - Isaac_237
+    21300476: PC Computer - The Binding of Isaac Rebirth - Isaac_238
+    21300478: PC Computer - The Binding of Isaac Rebirth - Isaac_239
+    21300480: PC Computer - The Binding of Isaac Rebirth - Isaac_240
+    21300482: PC Computer - The Binding of Isaac Rebirth - Isaac_241
+    21300484: PC Computer - The Binding of Isaac Rebirth - Isaac_242
+    21300486: PC Computer - The Binding of Isaac Rebirth - Isaac_243
+    21300488: PC Computer - The Binding of Isaac Rebirth - Isaac_244
+    21300490: PC Computer - The Binding of Isaac Rebirth - Isaac_245
+    21300492: PC Computer - The Binding of Isaac Rebirth - Isaac_246
+    21300494: PC Computer - The Binding of Isaac Rebirth - Isaac_247
+    21300496: PC Computer - The Binding of Isaac Rebirth - Isaac_248
+    21300498: PC Computer - The Binding of Isaac Rebirth - Isaac_249
+    21300500: PC Computer - The Binding of Isaac Rebirth - Isaac_250
+    21300502: PC Computer - The Binding of Isaac Rebirth - Isaac_251
+    21300504: PC Computer - The Binding of Isaac Rebirth - Isaac_252
+    21300506: PC Computer - The Binding of Isaac Rebirth - Isaac_253
+    21300508: PC Computer - The Binding of Isaac Rebirth - Isaac_254
+    21300510: PC Computer - The Binding of Isaac Rebirth - Isaac_255
+    21300512: PC Computer - The Binding of Isaac Rebirth - Isaac_256
+    21300514: PC Computer - The Binding of Isaac Rebirth - Isaac_257
+    21300516: PC Computer - The Binding of Isaac Rebirth - Isaac_258
+    21300518: PC Computer - The Binding of Isaac Rebirth - Isaac_259
+    21300520: PC Computer - The Binding of Isaac Rebirth - Isaac_260
+    21300522: PC Computer - The Binding of Isaac Rebirth - Isaac_261
+    21300524: PC Computer - The Binding of Isaac Rebirth - Isaac_262
+    21300526: PC Computer - The Binding of Isaac Rebirth - Isaac_263
+    21300528: PC Computer - The Binding of Isaac Rebirth - Isaac_264
+    21300530: PC Computer - The Binding of Isaac Rebirth - Isaac_265
+    21300532: PC Computer - The Binding of Isaac Rebirth - Isaac_266
+    21300534: PC Computer - The Binding of Isaac Rebirth - Isaac_267
+    21300536: PC Computer - The Binding of Isaac Rebirth - Isaac_268
+    21300538: PC Computer - The Binding of Isaac Rebirth - Isaac_269
+    21300540: PC Computer - The Binding of Isaac Rebirth - Isaac_270
+    21300542: PC Computer - The Binding of Isaac Rebirth - Isaac_271
+    21300544: PC Computer - The Binding of Isaac Rebirth - Isaac_272
+    21300546: PC Computer - The Binding of Isaac Rebirth - Isaac_273
+    21300548: PC Computer - The Binding of Isaac Rebirth - Isaac_274
+    21300550: PC Computer - The Binding of Isaac Rebirth - Isaac_275
+    21300552: PC Computer - The Binding of Isaac Rebirth - Isaac_276
+    21300554: PC Computer - The Binding of Isaac Rebirth - Isaac_277
+    21300556: PC Computer - The Binding of Isaac Rebirth - Isaac_278
+    21300558: PC Computer - The Binding of Isaac Rebirth - Isaac_279
+    21300560: PC Computer - The Binding of Isaac Rebirth - Isaac_280
+    21300562: PC Computer - The Binding of Isaac Rebirth - Isaac_281
+    21300564: PC Computer - The Binding of Isaac Rebirth - Isaac_282
+    21300566: PC Computer - The Binding of Isaac Rebirth - Isaac_283
+    21300568: PC Computer - The Binding of Isaac Rebirth - Isaac_284
+    21300570: PC Computer - The Binding of Isaac Rebirth - Isaac_285
+    21300572: PC Computer - The Binding of Isaac Rebirth - Isaac_286
+    21300574: PC Computer - The Binding of Isaac Rebirth - Isaac_287
+    21300576: PC Computer - The Binding of Isaac Rebirth - Isaac_288
+    21300578: PC Computer - The Binding of Isaac Rebirth - Isaac_289
+    21300580: PC Computer - The Binding of Isaac Rebirth - Isaac_290
+    21300582: PC Computer - The Binding of Isaac Rebirth - Isaac_291
+    21300584: PC Computer - The Binding of Isaac Rebirth - Isaac_292
+    21300586: PC Computer - The Binding of Isaac Rebirth - Isaac_293
+    21300588: PC Computer - The Binding of Isaac Rebirth - Isaac_294
+    21300590: PC Computer - The Binding of Isaac Rebirth - Isaac_295
+    21300592: PC Computer - The Binding of Isaac Rebirth - Isaac_296
+    21300594: PC Computer - The Binding of Isaac Rebirth - Isaac_297
+    21300596: PC Computer - The Binding of Isaac Rebirth - Isaac_298
+    21300598: PC Computer - The Binding of Isaac Rebirth - Isaac_299
+    21300600: PC Computer - The Binding of Isaac Rebirth - Isaac_300
+    21300602: PC Computer - The Binding of Isaac Rebirth - Isaac_301
+    21300604: PC Computer - The Binding of Isaac Rebirth - Isaac_302
+    21300606: PC Computer - The Binding of Isaac Rebirth - Isaac_303
+    21300608: PC Computer - The Binding of Isaac Rebirth - Isaac_304
+    21300610: PC Computer - The Binding of Isaac Rebirth - Isaac_305
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_7
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_8
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_9
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_10
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_11
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_12
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_13
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_14
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_15
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_16
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_17
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_19
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_20
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_21
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_22
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 900
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_23
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 899
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_25
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_27
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 855
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_28
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 856
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_29
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_30
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_31
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_32
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 855
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_33
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 856
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_34
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_35
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_36
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_37
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 855
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_38
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 856
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_39
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_40
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_41
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_42
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 855
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_43
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 856
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_44
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_45
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_46
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_47
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 855
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_48
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 856
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_49
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_50
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_51
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 857
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_52
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 855
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_53
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 856
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_54
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 814
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_55
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 814
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_56
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 814
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_57
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 814
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_58
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 814
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 814
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_60
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 814
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_61
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 814
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_62
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 814
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_63
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 814
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_64
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 814
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_65
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 814
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_66
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 814
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_67
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 814
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_68
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 814
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_69
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 814
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_70
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 814
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_71
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 814
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_72
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 814
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_73
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 814
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_74
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 814
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_75
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 814
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_76
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 814
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_77
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 814
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_78
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 814
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_79
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 814
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_80
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 814
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_81
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 814
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_82
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 814
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_83
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 814
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_84
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 751
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_85
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 754
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_86
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 752
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_87
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 753
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_88
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 751
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_89
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 754
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_90
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 752
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_91
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 753
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_92
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 751
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_93
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 754
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_94
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 752
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_95
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 753
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_96
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 688
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_97
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 688
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_98
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 686
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_99
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 688
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_100
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 688
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_101
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 688
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_102
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 686
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_103
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 688
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_104
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 688
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_105
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 688
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_106
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 686
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_107
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 688
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_108
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 627
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_109
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 629
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_110
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 623
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_111
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 627
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_112
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 629
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_113
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 623
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_114
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 627
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_115
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 629
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_116
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 623
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_117
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 570
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_118
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 570
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_119
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 570
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_120
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 586
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_121
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 581
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_122
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 586
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_123
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 570
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_124
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 567
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_125
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 585
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_126
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 570
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_127
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 570
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_128
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 570
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_129
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 586
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_130
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 581
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_131
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 586
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_132
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 570
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_133
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 567
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_134
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 585
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_135
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 570
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_136
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 570
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_137
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 570
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_138
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 586
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_139
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 581
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_140
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 586
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_141
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 570
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_142
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 567
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_143
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 585
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_144
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 565
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_145
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 565
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_146
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 567
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_147
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 565
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_148
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 565
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_149
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 567
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_150
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 565
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_151
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 565
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_152
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 567
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_153
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 495
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_154
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 494
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_155
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 495
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_156
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 494
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_157
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 495
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_158
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 494
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_159
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 495
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_160
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 494
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_161
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 495
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_162
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 494
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_163
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 495
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_164
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 494
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_165
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 495
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_166
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 494
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_167
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 495
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_168
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 494
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_169
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 495
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_170
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 494
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_171
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 495
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_172
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 494
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_173
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 495
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_174
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 494
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_175
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 495
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_176
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 494
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_177
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_178
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_179
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_180
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 450
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_181
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 451
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_182
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_183
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_184
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_185
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 450
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_186
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 451
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_187
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_188
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_189
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_190
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 450
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_191
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 451
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_192
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_193
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_194
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_195
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 450
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_196
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 451
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_197
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_198
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_199
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_200
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 450
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_201
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 451
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_202
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_203
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_204
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 452
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_205
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 450
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_206
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 451
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_207
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 409
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_208
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 409
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_209
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 409
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_210
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 409
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_211
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 409
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_212
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 409
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_213
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 409
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_214
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 409
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_215
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 409
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_216
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 409
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_217
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 409
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_218
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 409
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_219
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 409
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_220
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 409
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_221
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 409
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_222
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 409
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_223
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 409
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_224
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 409
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_225
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 409
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_226
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 409
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_227
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 409
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_228
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 409
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_229
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 409
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_230
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 409
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_231
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 409
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_232
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 409
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_233
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 409
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_234
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 409
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_235
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 409
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_236
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 409
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_237
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 346
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_238
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 349
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_239
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 347
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_240
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 348
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_241
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 346
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_242
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 349
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_243
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 347
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_244
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 348
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_245
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 346
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_246
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 349
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_247
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 347
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_248
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 348
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_249
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 283
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_250
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 283
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_251
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 281
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_252
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 283
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_253
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 283
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_254
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 283
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_255
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 281
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_256
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 283
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_257
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 283
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_258
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 283
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_259
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 281
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_260
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 283
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_261
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 222
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_262
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 224
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_263
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 218
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_264
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 222
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_265
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 224
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_266
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 218
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_267
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 222
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_268
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 224
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_269
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 218
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_270
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 165
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_271
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 165
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_272
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 165
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_273
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 181
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_274
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 176
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_275
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 181
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_276
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 165
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_277
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 162
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_278
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 180
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_279
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 165
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_280
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 165
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_281
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 165
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_282
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 181
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_283
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 176
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_284
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 181
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_285
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 165
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_286
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 162
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_287
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 180
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_288
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 165
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_289
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 165
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_290
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 165
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_291
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 181
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_292
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 176
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_293
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 181
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_294
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 165
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_295
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 162
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_296
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 180
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_297
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 160
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_298
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 160
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_299
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 162
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_300
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 160
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_301
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 160
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_302
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 162
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_303
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 160
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_304
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 160
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaac_305
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 162
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
