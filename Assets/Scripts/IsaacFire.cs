@@ -3,23 +3,33 @@ using System.Collections;
 using DG.Tweening;
 using System.Xml.Linq;
 
+public enum TearDropType {Basic, Homing, Zigzag, Double, Big};
+
 public class IsaacFire : MonoBehaviour 
 {
-	public GameObject tearDrop;
+	[Header ("TearDrop")]
+	public TearDropType currentTearDrop;
+	public GameObject[] tearDrops = new GameObject[0];
 
-	public float fireRate;
-
+	[Header ("Fire Rate")]
+	public float currentFireRate;
 	public bool canFire = true;
 
+	[Header ("Eyes")]
 	public Transform eyes;
 	public Transform leftEye;
 	public Transform rightEye;
 	public Transform oneEye;
 
+	[HideInInspector]
 	public Vector2 fireDirection;
-
 	private bool fireOnLeftEye = true;
-	
+
+	void Start ()
+	{
+		StartCoroutine (TearDropChange (currentTearDrop));
+	}
+
 	// Update is called once per frame
 	void Update () 
 	{
@@ -95,7 +105,7 @@ public class IsaacFire : MonoBehaviour
 		if (fireDirection.x != 0 && fireDirection.y == 0)
 			pos = oneEye.position;
 		
-		GameObject tearDropClone = Instantiate (tearDrop, pos, tearDrop.transform.rotation) as GameObject;
+		GameObject tearDropClone = Instantiate (tearDrops [(int)currentTearDrop], pos, tearDrops [(int)currentTearDrop].transform.rotation) as GameObject;
 		tearDropClone.GetComponent<Teardrop> ().Fire (fireDirection);
 
 		TeardropsDisplay (tearDropClone);
@@ -107,8 +117,19 @@ public class IsaacFire : MonoBehaviour
 	{
 		canFire = false;
 
-		yield return new WaitForSeconds (fireRate);
+		yield return new WaitForSeconds (currentFireRate);
 
 		canFire = true;
+	}
+
+	IEnumerator TearDropChange (TearDropType tearDrop)
+	{
+		Debug.Log ("Tear Drop Change : " + tearDrop.ToString ());
+
+		currentFireRate = tearDrops [(int)currentTearDrop].GetComponent<Teardrop> ().fireRate;
+
+		yield return new WaitUntil (() => currentTearDrop != tearDrop);
+
+		StartCoroutine (TearDropChange (currentTearDrop));
 	}
 }

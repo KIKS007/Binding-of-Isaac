@@ -6,12 +6,15 @@ public class IsaacAnim : MonoBehaviour
 	public enum MovementState {Up, Down, Left, Right, Idle};
 	public enum FireState {Up, Down, Left, Right, Idle};
 
+	[Header ("States")]
 	public MovementState movementState;
 	public FireState fireState;
 
+	[Header ("Animators")]
 	public Animator headAnimator;
 	public Animator bodyAnimator;
 
+	[Header ("Sprites")]
 	public SpriteRenderer bodyRend;
 
 	private IsaacFire isaacFire;

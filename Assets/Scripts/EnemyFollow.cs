@@ -3,10 +3,9 @@ using System.Collections;
 
 public class EnemyFollow : Enemy {
 
+	[Header ("Follow")]
 	public float speed = 5;
-
 	public float rotationLerp = 0.1f;
-
 	public bool followPlayer = true;
 
 	void FixedUpdate ()
