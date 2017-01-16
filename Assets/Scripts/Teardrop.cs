@@ -4,10 +4,16 @@ using DG.Tweening;
 
 public class Teardrop : MonoBehaviour 
 {
-	public float damage = 5;
+	public TearDropType tearDropType;
 
+	[Header ("Damage")]
+	public int damage = 5;
+
+	[Header ("Fire Rate")]
+	public float fireRate;
+
+	[Header ("Fire Details")]
 	public float fireSpeed;
-
 	public float fireDuration;
 	public float fireEndDuration;
 	public Ease fireRangeEase;
@@ -15,6 +21,7 @@ public class Teardrop : MonoBehaviour
 	protected Rigidbody2D tearDropRigidbody;
 
 	private Tween tween;
+	private bool dead = false;
 
 	protected virtual void FixedUpdate ()
 	{
@@ -41,13 +48,15 @@ public class Teardrop : MonoBehaviour
 		yield return new WaitForSeconds (fireDuration);
 
 		tween = DOTween.To (()=> fireSpeed, x=> fireSpeed = x, 0, fireEndDuration).SetEase (fireRangeEase).OnComplete (()=> 
-			{ if(gameObject) 
-				Destroy (gameObject);
+			{ 
+				if(!dead && gameObject != null) 
+					Destroy (gameObject);
 			});
 	}
 
 	public virtual void Kill ()
 	{
+		dead = true;
 		DOTween.Kill (tween);
 		Destroy (gameObject);
 	}

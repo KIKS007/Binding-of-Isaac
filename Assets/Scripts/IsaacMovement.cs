@@ -3,8 +3,7 @@ using System.Collections;
 
 public class IsaacMovement : MonoBehaviour 
 {
-	public float health = 100;
-
+	[Header ("Movement")]
 	public float movementSpeed = 2;
 
 	private Rigidbody2D rigidBody;
@@ -13,12 +12,6 @@ public class IsaacMovement : MonoBehaviour
 	void Start () 
 	{
 		rigidBody = GetComponent<Rigidbody2D> ();
-	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-		
 	}
 
 	void FixedUpdate ()
