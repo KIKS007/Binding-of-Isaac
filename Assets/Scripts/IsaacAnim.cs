@@ -24,17 +24,17 @@ public class IsaacAnim : MonoBehaviour
 	void Start () 
 	{
 		isaacFire = GetComponent<IsaacFire> ();
-
-		StartCoroutine (OnMovementChange (movementState));
-		StartCoroutine (OnFireChange (fireState));
+		isaacFire.OnFire += () => headAnimator.SetTrigger ("Blink");
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
 		GetFireDirection ();
-
 		GetMovementDirection ();
+
+		SetMovementDirection ();
+		SetFireDirection ();
 	}
 
 	void GetFireDirection ()
@@ -80,8 +80,9 @@ public class IsaacAnim : MonoBehaviour
 	}
 
 
-	void SendXMovement ()
+	void SetMovementDirection ()
 	{
+		// X Movement
 		if (movementState == MovementState.Right)
 		{
 			bodyRend.flipX = false;
@@ -100,10 +101,7 @@ public class IsaacAnim : MonoBehaviour
 			bodyAnimator.SetBool ("xMovement", false);
 		}
 
-	}
-
-	void SendYMovement ()
-	{
+		// Y Movement
 		if(movementState == MovementState.Up || movementState == MovementState.Down)
 			bodyAnimator.SetBool ("yMovement", true);
 
@@ -111,96 +109,20 @@ public class IsaacAnim : MonoBehaviour
 			bodyAnimator.SetBool ("yMovement", false);
 	}
 
-
-	IEnumerator OnMovementChange (MovementState previousState)
+	void SetFireDirection ()
 	{
-		SendXMovement ();
-		SendYMovement ();
-
-		yield return new WaitUntil (() => previousState != movementState);
-
-		StartCoroutine (OnMovementChange (movementState));
-	}
-
-	IEnumerator OnFireChange (FireState previousState)
-	{
-		SetHead ();
-
-		yield return new WaitUntil (() => previousState != fireState);
-
-		StartCoroutine (OnFireChange (fireState));
-	}
-
-
-	void SetHead ()
-	{
-		if(fireState != FireState.Idle)
+		if(fireState == FireState.Idle)
 		{
-			switch(fireState)
-			{
-			case FireState.Down:
-				headAnimator.SetTrigger ("Head_Down");
-				break;
-			case FireState.Up:
-				headAnimator.SetTrigger ("Head_Up");
-				break;
-			case FireState.Right:
-				headAnimator.SetTrigger ("Head_Right");
-				break;
-			case FireState.Left:
-				headAnimator.SetTrigger ("Head_Left");
-				break;
-			case FireState.Idle:
-				headAnimator.SetTrigger ("Head_Idle");
-				break;
-			}			
+			headAnimator.SetInteger ("xDirection", (int)Input.GetAxisRaw ("Horizontal"));
+			headAnimator.SetInteger ("yDirection", (int)Input.GetAxisRaw ("Vertical"));
+			headAnimator.SetBool ("Shooting", false);
 		}
+
 		else
 		{
-			switch(movementState)
-			{
-			case MovementState.Down:
-				headAnimator.SetTrigger ("Head_Down");
-				break;
-			case MovementState.Up:
-				headAnimator.SetTrigger ("Head_Up");
-				break;
-			case MovementState.Right:
-				headAnimator.SetTrigger ("Head_Right");
-				break;
-			case MovementState.Left:
-				headAnimator.SetTrigger ("Head_Left");
-				break;
-			case MovementState.Idle:
-				headAnimator.SetTrigger ("Head_Idle");
-				break;
-			}	
-		}
-	}
-
-	void SetBody ()
-	{
-		switch(movementState)
-		{
-		case MovementState.Down:
-			//bodyAnimator.SetTrigger ("Body_UpDown");
-			break;
-		case MovementState.Up:
-			//bodyAnimator.SetTrigger ("Body_UpDown");
-			break;
-		case MovementState.Right:
-			//bodyAnimator.SetTrigger ("Body_LeftRight");
-			bodyRend.flipX = false;
-			break;
-		case MovementState.Left:
-			//bodyAnimator.SetTrigger ("Body_LeftRight");
-			bodyRend.flipX = true;
-			break;
-		case MovementState.Idle:
-			//bodyAnimator.SetTrigger ("Body_Idle");
-			bodyRend.flipX = false;
-			bodyRend.flipY = false;
-			break;
+			headAnimator.SetInteger ("xDirection", (int)fireDirection.x);
+			headAnimator.SetInteger ("yDirection", (int)fireDirection.y);
+			headAnimator.SetBool ("Shooting", true);
 		}
 	}
 }

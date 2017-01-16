@@ -2,11 +2,15 @@
 using System.Collections;
 using DG.Tweening;
 using System.Xml.Linq;
+using System;
 
 public enum TearDropType {Basic, Homing, Zigzag, Double, Big};
+public delegate void EventHandler();
 
 public class IsaacFire : MonoBehaviour 
 {
+	public event EventHandler OnFire;
+
 	[Header ("TearDrop")]
 	public TearDropType currentTearDrop;
 	public GameObject[] tearDrops = new GameObject[0];
@@ -99,6 +103,9 @@ public class IsaacFire : MonoBehaviour
 	void Fire ()
 	{
 		StartCoroutine (FireRate ());
+
+		if (OnFire != null)
+			OnFire ();
 
 		Vector3 pos = fireOnLeftEye ? leftEye.position : rightEye.position;
 
