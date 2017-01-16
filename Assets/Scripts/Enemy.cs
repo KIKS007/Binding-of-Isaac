@@ -3,7 +3,11 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour 
 {
-	public float health = 100;
+	[Header ("Health")]
+	public int health = 100;
+
+	[Header ("Damage")]
+	public int damage = 2;
 
 	protected Rigidbody2D rigidBody;
 
@@ -16,7 +20,7 @@ public class Enemy : MonoBehaviour
 		player = GameObject.FindGameObjectWithTag ("Player").transform;
 	}
 
-	public virtual void Damage (float damage)
+	public virtual void Damage (int damage)
 	{
 		health -= damage;
 
@@ -27,5 +31,13 @@ public class Enemy : MonoBehaviour
 	protected virtual void Death ()
 	{
 		Destroy (gameObject);
+	}
+
+	protected virtual void OnCollisionEnter2D (Collision2D other)
+	{
+		if(other.gameObject.tag == "Player")
+		{
+			player.gameObject.GetComponent<IsaacHealth> ().Damage (damage);
+		}
 	}
 }
