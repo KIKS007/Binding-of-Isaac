@@ -14,14 +14,16 @@ public class Teardrop : MonoBehaviour
 
 	[Header ("Fire Details")]
 	public float fireSpeed;
-	public float fireDuration;
+	public float fireRange;
 	public float fireEndDuration;
-	public Ease fireRangeEase;
+
+	protected Ease fireRangeEase = Ease.Linear;
 
 	protected Rigidbody2D tearDropRigidbody;
 
 	private Tween tween;
 	protected bool dead = false;
+	protected bool travelEnded = false;
 
 	protected virtual void Awake ()
 	{
@@ -48,19 +50,42 @@ public class Teardrop : MonoBehaviour
 
 	protected virtual IEnumerator FireRange (Rigidbody2D tearDropRigidbody)
 	{
-		yield return new WaitForSeconds (fireDuration);
+		Vector3 lastPosition = transform.position;
+		float distanceTravelled = 0;
+
+		do
+		{
+			distanceTravelled += Vector3.Distance(transform.position, lastPosition);
+			lastPosition = transform.position;
+
+			yield return new WaitForEndOfFrame();
+		}
+		while(distanceTravelled < fireRange);
+
+		travelEnded = true;
 
 		tween = DOTween.To (()=> fireSpeed, x=> fireSpeed = x, 0, fireEndDuration).SetEase (fireRangeEase).OnComplete (()=> 
 			{ 
 				if(!dead && gameObject != null) 
-					Destroy (gameObject);
+					Kill ();
 			});
 	}
 
 	public virtual void Kill ()
 	{
+		StartCoroutine (KillCoroutine ());
+	}
+
+	IEnumerator KillCoroutine ()
+	{
 		dead = true;
 		DOTween.Kill (tween);
+
+		transform.DOScale (0, 0.1f);
+		//GetComponent<Collider2D> ().enabled = false;
+
+		yield return new WaitForSeconds (0.1f);
+
 		Destroy (gameObject);
 	}
 

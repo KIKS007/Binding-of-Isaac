@@ -85,7 +85,7 @@ public class Interface : MonoBehaviour
 
 			tearScript.fireSpeed = fireSpeed.value;
 			tearScript.fireRate =  1 / fireRate.value;
-			tearScript.fireDuration = fireRange.value;
+			tearScript.fireRange = fireRange.value;
 			tearScript.damage = (int)fireDamage.value;
 		}
 

@@ -53,7 +53,7 @@ public class TeardropZigZag : Teardrop
 	{
 		//DOTween.To (() => zigzagMovement, x => zigzagMovement = x, movementSign * Random.Range (zigzagLength.x, zigzagLength.y), zigzagDuration).SetEase (zigzagEase).OnComplete (Reset).SetRelative ();
 
-		if (transform == null)
+		if (transform == null || travelEnded)
 			return;
 
 		movementSign *= -1;
@@ -68,7 +68,7 @@ public class TeardropZigZag : Teardrop
 
 	void Reset ()
 	{
-		if (transform == null)
+		if (transform == null || travelEnded)
 			return;
 
 		//DOTween.To (() => zigzagMovement, x => zigzagMovement = x, resetPosition, zigzagDuration).SetEase (zigzagEase).OnComplete (Zigzag);
