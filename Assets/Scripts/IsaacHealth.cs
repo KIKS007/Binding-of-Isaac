@@ -20,6 +20,8 @@ public class IsaacHealth : MonoBehaviour
 	void Start () {
 		head = transform.GetChild (0).GetComponent<SpriteRenderer> ();
 		initialScale = transform.localScale;
+
+		health = (int)Interface.Instance.maxHealth.value;
 	}
 
 	public void Damage (int damage, Transform enemy)

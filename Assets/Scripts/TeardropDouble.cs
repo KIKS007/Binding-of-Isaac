@@ -16,6 +16,7 @@ public class TeardropDouble : Teardrop
 			GameObject clone = Instantiate (gameObject, transform.position, transform.rotation) as GameObject;
 			clone.GetComponent<TeardropDouble> ().spawnOtherTear = false;
 			transform.Rotate (0, 0, tearsAngles);
+			clone.GetComponent<TeardropDouble> ().Fire (new Vector2(transform.right.x, transform.right.y));
 		}
 		else
 			transform.Rotate (0, 0, -tearsAngles);
