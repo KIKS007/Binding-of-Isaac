@@ -32,6 +32,15 @@ public class EnemyCharge : Enemy
 			rigidBody.MovePosition (rigidBody.position + chargeDirection * chargeSpeedTemp * Time.fixedDeltaTime);
 	}
 
+	void LookAtDirection ()
+	{
+		Vector3 dir = player.transform.position - transform.position; 
+		float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg; 
+		Quaternion newRot = Quaternion.AngleAxis(angle, Vector3.forward);
+
+		transform.DORotate (newRot.eulerAngles, 0.5f);
+	}
+
 	void DetectPlayer ()
 	{
 		if (Physics2D.Raycast (transform.position, Vector2.right, 100, playerLayer))

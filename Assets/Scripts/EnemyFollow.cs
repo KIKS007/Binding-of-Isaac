@@ -16,9 +16,10 @@ public class EnemyFollow : Enemy {
 
 	void FollowPlayer ()
 	{
-		LookAtPlayer ();
+		//LookAtPlayer ();
 
-		rigidBody.MovePosition (rigidBody.position + new Vector2 (transform.right.x, transform.right.y) * speed * Time.fixedDeltaTime);
+		Vector3 dir = player.transform.position - transform.position; 
+		rigidBody.MovePosition (rigidBody.position + new Vector2 (dir.x, dir.y) * speed * Time.fixedDeltaTime);
 	}
 
 	void LookAtPlayer ()
