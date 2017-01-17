@@ -33,6 +33,15 @@ public class EnemyDash : Enemy
 		rigidBody.MovePosition (rigidBody.position + dashDirection * dashSpeedTemp * Time.fixedDeltaTime);
 	}
 
+	void LookAtDirection ()
+	{
+		Vector3 dir = new Vector3 (dashDirection.x, dashDirection.y, 0) - transform.position; 
+		float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg; 
+		Quaternion newRot = Quaternion.AngleAxis(angle, Vector3.forward);
+
+		transform.DORotate (newRot.eulerAngles, 0.5f);
+	}
+
 	void Dash ()
 	{
 		dashing = true;
@@ -40,7 +49,8 @@ public class EnemyDash : Enemy
 
 		if(Random.Range (0, 100) < attackingPlayerChance)
 		{
-			Debug.Log("Attacking Player");
+			//Debug.Log("Attacking Player");
+
 			dashDirection = new Vector2 (player.transform.position.x - transform.position.x, player.transform.position.y - transform.position.y);
 			dashDirection = dashDirection.normalized * dashLength;
 
@@ -62,6 +72,7 @@ public class EnemyDash : Enemy
 			while(raycastHit.collider);		
 		}
 
+		LookAtDirection ();
 
 		dashSpeedTemp = dashSpeed;
 		DOTween.To (()=> dashSpeedTemp, x=> dashSpeedTemp = x, 0, dashDuration).SetEase (dashEase).OnComplete (()=> dashing = false).SetId ("Dash" + GetInstanceID ());

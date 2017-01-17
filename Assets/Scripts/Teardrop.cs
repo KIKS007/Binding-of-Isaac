@@ -21,7 +21,12 @@ public class Teardrop : MonoBehaviour
 	protected Rigidbody2D tearDropRigidbody;
 
 	private Tween tween;
-	private bool dead = false;
+	protected bool dead = false;
+
+	protected virtual void Awake ()
+	{
+		tearDropRigidbody = GetComponent<Rigidbody2D> ();
+	}
 
 	protected virtual void FixedUpdate ()
 	{
@@ -30,8 +35,6 @@ public class Teardrop : MonoBehaviour
 
 	protected virtual void LookAt (Vector2 target)
 	{
-		tearDropRigidbody = GetComponent<Rigidbody2D> ();
-
 		float angle = Mathf.Atan2(target.y, target.x) * Mathf.Rad2Deg;
 		transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 	}
@@ -66,7 +69,7 @@ public class Teardrop : MonoBehaviour
 		if(other.gameObject.tag == "Enemy")
 			other.gameObject.GetComponent<Enemy> ().Damage (damage);
 
-		if(other.gameObject.tag == "Teardrop" || other.gameObject.tag == "Wall" || other.gameObject.tag == "Enemy")
+		if(other.gameObject.tag == "Wall" || other.gameObject.tag == "Enemy")
 			Kill ();
 	}
 
