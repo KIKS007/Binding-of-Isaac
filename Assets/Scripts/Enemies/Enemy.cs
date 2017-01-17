@@ -37,8 +37,22 @@ public class Enemy : MonoBehaviour
 
 	protected virtual void Death ()
 	{
+		StartCoroutine (DeathCoroutine ());
+	}
+
+	protected virtual IEnumerator DeathCoroutine ()
+	{
 		DOTween.Kill ("FX" + GetInstanceID ());
+		
+		transform.DOScale (0, 0.2f);
+		GetComponent<Collider2D> ().enabled = false;
+		
+		yield return new WaitForSeconds (0.2f);
+		
+		EnemySpawner.Instance.RemoveEnemy (gameObject);
+		
 		Destroy (gameObject);
+		
 	}
 
 	protected virtual void OnCollisionEnter2D (Collision2D other)

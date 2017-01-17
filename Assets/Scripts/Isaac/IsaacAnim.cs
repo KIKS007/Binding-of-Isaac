@@ -76,7 +76,6 @@ public class IsaacAnim : MonoBehaviour
 
 		else if(Input.GetAxisRaw ("Horizontal") == 0 && Input.GetAxisRaw ("Vertical") == 0)
 			movementState = MovementState.Idle;
-
 	}
 
 

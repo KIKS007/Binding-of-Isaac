@@ -32,7 +32,9 @@ public class IsaacHealth : MonoBehaviour
 			transform.DOScale (1, 0.2f).SetRelative ().SetEase (Ease.OutElastic).OnComplete (()=> transform.DOScale (initialScale, 0.1f)).SetId ("FX" + GetInstanceID ());
 			
 			health -= damage;
-			
+
+			Interface.Instance.currentHealth.value = (float)health;
+
 			if (health <= 0)
 				Death ();
 

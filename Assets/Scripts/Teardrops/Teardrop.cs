@@ -82,7 +82,7 @@ public class Teardrop : MonoBehaviour
 		DOTween.Kill (tween);
 
 		transform.DOScale (0, 0.1f);
-		//GetComponent<Collider2D> ().enabled = false;
+		GetComponent<Collider2D> ().enabled = false;
 
 		yield return new WaitForSeconds (0.1f);
 
@@ -92,7 +92,10 @@ public class Teardrop : MonoBehaviour
 	protected virtual void OnCollisionEnter2D (Collision2D other)
 	{
 		if(other.gameObject.tag == "Enemy")
+		{
 			other.gameObject.GetComponent<Enemy> ().Damage (damage);
+			Kill ();
+		}
 
 		if(other.gameObject.tag == "Wall" || other.gameObject.tag == "Enemy")
 			Kill ();

@@ -47,7 +47,7 @@ public class EnemyDash : Enemy
 		dashing = true;
 		RaycastHit2D raycastHit = new RaycastHit2D ();
 
-		if(Random.Range (0, 100) < attackingPlayerChance)
+		if(Random.Range (0, 100) < attackingPlayerChance && player != null)
 		{
 			//Debug.Log("Attacking Player");
 
