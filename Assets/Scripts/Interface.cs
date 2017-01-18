@@ -40,14 +40,17 @@ public class Interface : MonoBehaviour
 	private IsaacHealth isaacHealth;
 	private IsaacMovement isaacMovement;
 
-	// Use this for initialization
-	void Start () 
+	void Awake () 
 	{
 		if (Instance == null)
 			Instance = this;
 		else
 			Destroy (this);
 
+	}
+
+	void Start ()
+	{
 		Setup ();
 	}
 
@@ -95,6 +98,14 @@ public class Interface : MonoBehaviour
 
 		isaacFire.currentFireRate = 1 / fireRate.value;
 		isaacMovement.movementSpeed = movementSpeed.value;
+	}
+
+	public void UpdateIsaacHealth ()
+	{
+		isaacHealth.health = (int)maxHealth.value;
+
+		currentHealth.maxValue = maxHealth.value;
+		currentHealth.value = maxHealth.value;
 	}
 
 	public void UpdateEnemy (int enemy)
@@ -175,7 +186,8 @@ public class Interface : MonoBehaviour
 
 		isaac.SetActive (true);
 		isaac.transform.DOScale (initialScale, 0.2f);
-		Setup ();
 
+		currentHealth.value = maxHealth.value;
+		isaacHealth.health = (int)maxHealth.value;
 	}
 }

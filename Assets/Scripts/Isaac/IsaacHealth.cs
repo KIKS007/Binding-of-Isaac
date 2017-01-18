@@ -5,11 +5,16 @@ using DG.Tweening;
 
 public class IsaacHealth : MonoBehaviour 
 {
+	public event EventHandler OnDeath;
+
 	[Header ("Health")]
 	public int health = 100;
 
 	[Header ("Safe")]
 	public float safeDuration = 2;
+
+	[Header ("Death")]
+	public GameObject deadIsaac;
 
 	private SpriteRenderer head;
 	private Vector3 initialScale;
@@ -22,6 +27,14 @@ public class IsaacHealth : MonoBehaviour
 		initialScale = transform.localScale;
 
 		health = (int)Interface.Instance.maxHealth.value;
+	}
+
+	void OnEnable ()
+	{
+		if(gameObject.activeSelf)
+			StartCoroutine (Safe ());
+		
+		deadIsaac.SetActive (false);
 	}
 
 	public void Damage (int damage, Transform enemy)
@@ -38,7 +51,8 @@ public class IsaacHealth : MonoBehaviour
 			if (health <= 0)
 				Death ();
 
-			StartCoroutine (Safe ());
+			if(gameObject.activeSelf)
+				StartCoroutine (Safe ());
 		}
 
 	}
@@ -54,7 +68,13 @@ public class IsaacHealth : MonoBehaviour
 
 	public void Death ()
 	{
-		DOTween.Kill ("FX" + GetInstanceID ());
-		Destroy (gameObject);
+		if (OnDeath != null)
+			OnDeath ();
+		
+		DOTween.Complete ("FX" + GetInstanceID ());
+		gameObject.SetActive (false);
+
+		deadIsaac.transform.position = transform.position;
+		deadIsaac.SetActive (true);		
 	}
 }

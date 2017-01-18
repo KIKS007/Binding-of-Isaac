@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using DG.Tweening;
+using UnityEngine.Networking;
 
 public class Enemy : MonoBehaviour 
 {
@@ -19,9 +20,22 @@ public class Enemy : MonoBehaviour
 	protected virtual void Start () 
 	{
 		rigidBody = GetComponent<Rigidbody2D> ();
-		player = GameObject.FindGameObjectWithTag ("Player").transform;
+		player = EnemySpawner.Instance.player;
 		spriteRenderer = GetComponent<SpriteRenderer> ();
 		initialScale = transform.localScale;
+
+		Spawn ();
+	}
+
+	protected virtual void Spawn ()
+	{
+		GetComponent<Collider2D> ().enabled = false;
+		
+		transform.localScale = Vector3.zero;
+
+		transform.DOScale (initialScale, 0.2f).OnComplete (()=> {
+			GetComponent<Collider2D> ().enabled = true;
+		});
 	}
 
 	public virtual void Damage (int damage)

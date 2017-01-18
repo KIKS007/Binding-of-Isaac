@@ -22,23 +22,27 @@ public class EnemySpawner : MonoBehaviour
 	[Header ("Alive Enemies")]
 	public List<GameObject> aliveEnemies = new List<GameObject> ();
 
-	private Transform player;
+	[HideInInspector]
+	public Transform player;
 
-	// Use this for initialization
-	void Start () 
+	void Awake () 
 	{
 		if (Instance == null)
 			Instance = this;
 		else
 			Destroy (this);
+	}
 
+	void Start ()
+	{
 		player = GameObject.FindGameObjectWithTag ("Player").transform;
-
+		
 		SpawnEnemy ();
-
+		
 		StartCoroutine (NextWave ());
-
+		
 		StartCoroutine (RandomSpawn ());
+		
 	}
 	
 	// Update is called once per frame
@@ -68,6 +72,8 @@ public class EnemySpawner : MonoBehaviour
 	{
 		yield return new WaitWhile (() => aliveEnemies.Count == currentMaxEnemies);
 
+		yield return new WaitWhile (()=> player.gameObject.activeSelf == false);
+
 		yield return new WaitForSeconds (Random.Range (randomSpawnDuration.x, randomSpawnDuration.y));
 
 		if(player != null)
@@ -85,6 +91,8 @@ public class EnemySpawner : MonoBehaviour
 
 	IEnumerator NextWave ()
 	{
+		yield return new WaitWhile (()=> player.gameObject.activeSelf == false);
+
 		yield return new WaitForSeconds (waveDuration);
 
 		currentMaxEnemies++;

@@ -27,11 +27,17 @@ public class IsaacFire : MonoBehaviour
 
 	[HideInInspector]
 	public Vector2 fireDirection;
-	private bool fireOnLeftEye = true;
+	[HideInInspector]
+	public bool fireOnLeftEye = true;
 
 	void Start ()
 	{
 		StartCoroutine (TearDropChange (currentTearDrop));
+	}
+
+	void OnEnable ()
+	{
+		canFire = true;
 	}
 
 	// Update is called once per frame

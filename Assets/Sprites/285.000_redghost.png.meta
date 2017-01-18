@@ -1,22 +1,21 @@
 fileFormatVersion: 2
-guid: e30babbec0126f24b9f6324bee69d6b9
-timeCreated: 1484611263
-licenseType: Free
+guid: 683348a849899c9469d6a958b0f893ab
+timeCreated: 1484730598
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: metallic_tears_0
-    21300002: metallic_tears_1
-    21300004: metallic_tears_2
-    21300006: metallic_tears_3
-    21300008: metallic_tears_4
-    21300010: metallic_tears_5
-    21300012: metallic_tears_6
-    21300014: metallic_tears_7
-    21300016: metallic_tears_8
-    21300018: metallic_tears_9
-    21300020: metallic_tears_10
-    21300022: metallic_tears_11
-    21300024: metallic_tears_12
+    21300000: 285.000_redghost_0
+    21300002: 285.000_redghost_1
+    21300004: 285.000_redghost_2
+    21300006: 285.000_redghost_3
+    21300008: 285.000_redghost_4
+    21300010: 285.000_redghost_5
+    21300012: 285.000_redghost_6
+    21300014: 285.000_redghost_7
+    21300016: 285.000_redghost_8
+    21300018: 285.000_redghost_9
+    21300020: 285.000_redghost_10
+    21300022: 285.000_redghost_11
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -73,7 +72,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: Standalone
     maxTextureSize: 2048
-    textureFormat: 12
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -107,169 +106,156 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: metallic_tears_0
+      name: 285.000_redghost_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 45
-        width: 6
-        height: 6
+        x: 7
+        y: 102
+        width: 31
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: metallic_tears_1
+      name: 285.000_redghost_1
       rect:
         serializedVersion: 2
-        x: 44
-        y: 44
-        width: 8
-        height: 8
+        x: 54
+        y: 102
+        width: 32
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: metallic_tears_2
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 44
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: metallic_tears_3
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 43
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: metallic_tears_4
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 43
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: metallic_tears_5
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 42
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: metallic_tears_6
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 42
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: metallic_tears_7
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 41
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: metallic_tears_8
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 8
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: metallic_tears_9
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 7
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: metallic_tears_10
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 6
-        width: 21
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: metallic_tears_11
+      name: 285.000_redghost_2
       rect:
         serializedVersion: 2
         x: 100
-        y: 5
-        width: 24
-        height: 23
+        y: 103
+        width: 37
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: metallic_tears_12
+      name: 285.000_redghost_3
       rect:
         serializedVersion: 2
-        x: 131
-        y: 4
-        width: 26
-        height: 25
+        x: 149
+        y: 103
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 285.000_redghost_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 54
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 285.000_redghost_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 54
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 285.000_redghost_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 55
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 285.000_redghost_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 55
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 285.000_redghost_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 285.000_redghost_9
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 5
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 285.000_redghost_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 7
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 285.000_redghost_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 7
+        width: 38
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

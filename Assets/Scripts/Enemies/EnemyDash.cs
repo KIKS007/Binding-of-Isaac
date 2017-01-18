@@ -17,13 +17,19 @@ public class EnemyDash : Enemy
 	[Header ("Obstacles")]
 	public LayerMask obstaclesLayer;
 
+	[Header ("Flip")]
+	public Vector2 angleLimits;
+
 	private Vector2 dashDirection;
 	private float dashSpeedTemp;
 	private bool dashing = false;
 
+	private Animator animator;
+
 	protected override void Start ()
 	{
 		base.Start ();
+		animator = GetComponent<Animator> ();
 		StartCoroutine (DashCooldown ());
 	}
 
@@ -31,6 +37,11 @@ public class EnemyDash : Enemy
 	{
 		if(dashing)
 		rigidBody.MovePosition (rigidBody.position + dashDirection * dashSpeedTemp * Time.fixedDeltaTime);
+
+		if (transform.rotation.eulerAngles.z > angleLimits.x && transform.rotation.eulerAngles.z < angleLimits.y)
+			spriteRenderer.flipY = true;
+		else
+			spriteRenderer.flipY = false;
 	}
 
 	void LookAtDirection ()
@@ -45,9 +56,11 @@ public class EnemyDash : Enemy
 	void Dash ()
 	{
 		dashing = true;
+		animator.SetBool ("Dashing", true);
+
 		RaycastHit2D raycastHit = new RaycastHit2D ();
 
-		if(Random.Range (0, 100) < attackingPlayerChance && player != null)
+		if(Random.Range (0, 100) < attackingPlayerChance)
 		{
 			//Debug.Log("Attacking Player");
 
@@ -82,7 +95,11 @@ public class EnemyDash : Enemy
 	{
 		yield return new WaitWhile (()=> dashing);
 
+		animator.SetBool ("Dashing", false);
+
 		float cooldown = Random.Range (dashCooldown.x, dashCooldown.y);
+
+		yield return new WaitWhile (()=> !player.gameObject.activeSelf);
 
 		yield return new WaitForSeconds (cooldown);
 

@@ -20,6 +20,14 @@ public class EnemyCharge : Enemy
 	private bool charging = false;
 	private bool detecting = true;
 
+	private Animator animator;
+
+	protected override void Start ()
+	{
+		base.Start ();
+		animator = GetComponent<Animator> ();
+	}
+
 	void Update ()
 	{
 		if (detecting)
@@ -44,22 +52,41 @@ public class EnemyCharge : Enemy
 	void DetectPlayer ()
 	{
 		if (Physics2D.Raycast (transform.position, Vector2.right, 100, playerLayer))
+		{
 			Charge(Vector2.right);
+			animator.SetTrigger ("LeftRight");
+		}
 
 		else if (Physics2D.Raycast (transform.position, Vector2.down, 100, playerLayer))
+		{
 			Charge(Vector2.down);
+			animator.SetTrigger ("Down");
+		}
 
 		else if (Physics2D.Raycast (transform.position, Vector2.left, 100, playerLayer))
+		{
 			Charge(Vector2.left);
+			animator.SetTrigger ("LeftRight");
+		}
 
 		else if (Physics2D.Raycast (transform.position, Vector2.up, 100, playerLayer))
+		{
 			Charge(Vector2.up);
+			animator.SetTrigger ("Up");
+		}
 	}
 
 	void Charge (Vector2 direction)
 	{
 		detecting = false;
 		charging = true;
+
+		if(direction == Vector2.left)
+			spriteRenderer.flipX = true;
+		else
+			spriteRenderer.flipX = false;
+
+		animator.SetBool ("Charging", true);
 
 		chargeDirection = direction.normalized;
 
@@ -72,6 +99,8 @@ public class EnemyCharge : Enemy
 	IEnumerator ChargeCooldown ()
 	{
 		yield return new WaitWhile (()=> charging);
+
+		animator.SetBool ("Charging", false);
 
 		float cooldown = Random.Range (chargeCooldown.x, chargeCooldown.y);
 

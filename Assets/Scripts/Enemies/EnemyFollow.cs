@@ -10,7 +10,7 @@ public class EnemyFollow : Enemy {
 
 	void FixedUpdate ()
 	{
-		if (followPlayer && player != null)
+		if (followPlayer && player != null && player.gameObject.activeSelf)
 			FollowPlayer ();
 	}
 

@@ -25,6 +25,8 @@ public class TeardropBig : Teardrop
 	{
 		if(transform != null && !dead)
 			transform.DOScale (newScale, growDuration).SetEase (ease).OnComplete (Shrink);
+		
+		newScale += 1;
 	}
 
 	void Shrink ()

@@ -37,6 +37,9 @@ public class TeardropZigZag : Teardrop
 		else
 			resetPosition = tearDropRigidbody.position.y;
 
+		if(!GameObject.FindGameObjectWithTag ("Player").GetComponent<IsaacFire> ().fireOnLeftEye)
+			movementSign *= -1;
+
 		Zigzag ();
 	}
 
